@@ -225,9 +225,9 @@ main {
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 30px;
   white-space: nowrap;
-  margin-bottom: 21px;
+  margin-bottom: 10px;
 }
 .utility-des {
   font-family: "Open Sans", Helvetica;
@@ -420,7 +420,7 @@ div.footer {
   }
   .main-social {
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .about-heading {
     margin-top: 20px;
