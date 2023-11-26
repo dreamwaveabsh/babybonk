@@ -486,6 +486,7 @@ div.footer {
   .footer-mid h2 {
     font-size: 20px;
     text-align: center;
+    line-height: 20px;
   }
 
   .about-heading {
