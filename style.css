@@ -273,10 +273,11 @@ main {
   padding-top: 70px;
 }
 .tokenomics-mobile img {
-  width: 758px;
-  height: 758px;
+  width: 500px;
+  height: 500px;
+  margin: 100px 0;
   -webkit-animation: spin 2s linear infinite;
-  animation: spin 5s linear infinite;
+  animation: spin 6s linear infinite;
 }
 @-webkit-keyframes spin {
   0% {
@@ -514,8 +515,9 @@ div.footer {
     padding-top: 10px;
   }
   .tokenomics-mobile img {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
+    margin: 50px 0;
   }
   .social-1,
   .social-2 {
