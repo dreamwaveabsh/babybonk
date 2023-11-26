@@ -8,7 +8,6 @@ header {
 }
 .header-list {
   font-weight: 400;
-
   display: flex;
   font-size: 15px;
   font-style: normal;
@@ -22,6 +21,7 @@ header {
   font-weight: 400;
   line-height: 20px;
   color: #ffffff;
+  font-family: Exo;
 }
 .header-img img {
   width: 85px;
@@ -37,15 +37,16 @@ header {
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
-
   border-radius: 30px 15px;
   background: linear-gradient(106deg, #ff8602 28%, #f2e113 95%);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
+
 .header-buy a {
   text-decoration: none;
   font-size: 16px;
   color: #fff;
+  font-family: Exo;
 }
 main {
   background: linear-gradient(252deg, #f9dd0a 1.85%, #ff8602 54.67%);
@@ -101,6 +102,7 @@ main {
   font-weight: 700;
   line-height: 25px; /* 125% */
   margin-top: 20px;
+  font-family: Exo;
 }
 .main-contract span {
   color: #fff;
@@ -273,6 +275,25 @@ main {
 .tokenomics-mobile img {
   width: 758px;
   height: 758px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .tokenomics-mobile h1 {
   background: linear-gradient(
@@ -327,6 +348,7 @@ div.footer {
 }
 
 .footer-mid h2 {
+  font-family: Exo;
   margin-bottom: 16px;
   font-size: 13px;
   font-style: normal;
